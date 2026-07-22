@@ -12,7 +12,8 @@ import java.util.Set;
 @Getter
 @Setter
 @NoArgsConstructor
-@Table(name = "Genre")
+@Table(name = "genres")
+@Entity
 public class Genre {
 
     @Id
